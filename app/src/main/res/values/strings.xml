@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Daftar Hewan Punah</string>
+    <string name="animal_name">Nama Hewan</string>
+    <string name="from">From</string>
+    <string name="list">List</string>
+    <string name="grid">Grid</string>
+    <string name="with_cardview">With CardView</string>
+    <string name="description">Description</string>
+    <string name="favorite">Favorite</string>
+    <string name="share">Share</string>
+    <string name="title_animal_data">Detail Hewan</string>
+    <string name="title_profile">Profilku</string>
+</resources>

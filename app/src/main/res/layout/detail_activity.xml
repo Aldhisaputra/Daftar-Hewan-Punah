@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/detail_activity"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/white">
+
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                    android:id="@+id/photo_animal"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"/>
+
+        <TextView
+                android:id="@+id/name_animal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="32sp"
+                android:text="Quagga"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:textColor="@android:color/black"/>
+
+        <TextView
+                android:id="@+id/description_animal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The quagga ( / k w ɑː x ɑː / atau / k w æ ɡ ə / ) adalah zebra dataran yang hidup di Afrika Selatan sampai menjadi punah di akhir abad ke-19. Sudah lama dianggap sebagai spesies yang berbeda, tetapi studi genetik awal telah mendukungnya menjadi subspesies zebra dataran. Sebuah studi yang lebih baru menunjukkan bahwa itu hanyalah tiruan paling selatanatau ekotipe spesies. Nama itu berasal dari panggilannya, yang terdengar seperti: kwa-ha-ha."
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="16dp"
+                android:lineSpacingMultiplier="1"
+                android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+
+</ScrollView>
